@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}<title>Django environments example</title>{% endblock %}
+</head>
+<body>
+   {% for key, value in variables.items %}
+	<div>
+		{{key}} =&gt; {{value}}
+	</div>
+   {% endfor %}
+</body>
+</html>
